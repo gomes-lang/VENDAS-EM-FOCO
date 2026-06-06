@@ -81,6 +81,7 @@ export const ProjectDetails: React.FC<ProjectDetailsProps> = ({ project, onBack 
             src={project.image} 
             alt={project.title} 
             className="w-full h-full object-cover"
+            referrerPolicy="no-referrer"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-dark/60 via-transparent to-transparent" />
         </div>

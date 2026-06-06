@@ -562,6 +562,7 @@ const App = () => {
                   src={p.image} 
                   className="absolute inset-0 w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 opacity-40 group-hover:opacity-75" 
                   alt={p.title} 
+                  referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/40 to-transparent" />
                 
